@@ -1,7 +1,7 @@
 function setup() {
   createCanvas(windowWidth, windowHeight);
   textAlign(CENTER);
-  textSize(60);
+  textSize(100);
   colorMode(HSL);
 }
 
@@ -11,9 +11,9 @@ function draw() {
   fill (255);
   
   if (mouseIsPressed) {
-    fill ('black');
- 
-    
+    textSize(5);
   }
+
+  
     
 }

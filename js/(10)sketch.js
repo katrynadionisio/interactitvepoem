@@ -9,17 +9,11 @@ function setup() {
 }
 
 function draw() {
-  background('black');
+  background('white');
   text ('Finally I saw that worrying had come to nothing.', windowWidth/2, windowHeight/2);
-  fill (255);
+  fill (black);
   
-  if (mouseIsPressed) {
-    
-    fill ('black');
-    text('nothing., windowWidth/2, windowHeight/2')
-  } else {
-    textSize(20);
-  }
+  
   
 
     

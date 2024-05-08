@@ -13,8 +13,6 @@ function draw() {
   if (mouseIsPressed) {
       text ('HOW SHALL I \n CORRECT IT?', 300, 300);
     fill ('black');
-  } else {
-    textSize();
-  }
+  } 
     
 }

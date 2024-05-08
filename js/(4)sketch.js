@@ -14,24 +14,29 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
 textSize(20);
   textFont(font);
+  
   background('black');
+  
+  
 }
 
 function draw() {
-  text ('will the earth turn as it was taught,', windowWidth-900, windowHeight-40);
+  text ('will the earth turn as it was taught,', windowWidth-900, windowHeight-120);
   fill('lightYellow');
   image(earth, windowWidth-900, windowHeight/4);
     image(gif,windowWidth-900, windowHeight/4);
   image(star, mouseX,mouseY);
   
+  
 
 }
 
-
-if (mouseIsPressed) {
-  image(gif,windowWidth/2, windowHeight/2);
-
-  } else {
-     image(earth, windowWidth/2, windowHeight/2);
-
-  }
+// Pause the GIF when the user presses the mouse.
+function mousePressed() {
+  gif.pause();
+}
+ 
+// Play the GIF when the user releases the mouse.
+function mouseReleased() {
+  gif.play();
+}

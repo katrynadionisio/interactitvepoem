@@ -1,26 +1,22 @@
 function setup() {
   createCanvas(windowWidth, windowHeight);
   textAlign(CENTER);
-  textSize(20);
+  textSize(30);
   colorMode(HSL);
 }
 
 function draw() {
-  background('black');
+  background('orange');
   text ('And gave it up.', windowWidth/2, windowHeight/2);
   fill (255);
   
-  if (mouseIsPressed) {
-    textSize(60);
+  
+    if (mouseIsPressed) {
+      textSize (150);
+    } else {
+      
   
     }
-  
-  if (mouseIsPressed) {
-    textSize (100);
-  } else {
-    textSize(20);
-
-  }
-  
-  }
-  
+    
+    }
+    

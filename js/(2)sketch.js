@@ -11,7 +11,7 @@ function preload(){
 function setup() {
   createCanvas(windowWidth, windowHeight);
   textAlign(CENTER);
-  textSize(20);
+  textSize(25);
   textFont (font);
   colorMode (HSL);
   background ('green');
@@ -21,7 +21,7 @@ function draw() {
 // Define a dark brown color
   let darkBrown = color(25, 100, 15); // Hue, Saturation, Lightness
   fill(darkBrown);
-  text('Will the garden grow,',windowWidth/2,windowHeight-30);
+  text('Will the garden grow,',windowWidth/2,windowHeight-100);
   
    if (mouseIsPressed) {
      background(flowers);

@@ -7,7 +7,7 @@ function preload() {
 function setup() {
   createCanvas(windowWidth, windowHeight);
    textAlign(CENTER);
-  textSize(20);
+  textSize(30);
   textFont(font);
   colorMode(HSL);
     
@@ -23,8 +23,8 @@ function draw() {
    if (mouseIsPressed) {
       fill ('hotPink');
      text ('AND SANG.', windowWidth/2, windowHeight/2);
-     textSize(80);
+     textSize(100);
   } else {
-    textSize(20);
+    textSize(30);
 }
 }

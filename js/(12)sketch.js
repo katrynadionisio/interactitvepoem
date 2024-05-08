@@ -21,10 +21,11 @@ function draw() {
   text('And took my old body and went out into the morning,', mouseX, mouseY);
   
    if (mouseIsPressed) {
-      fill ('hotPink');
+    textSize(120);
+    fill ('hotPink');
      text ('AND SANG.', windowWidth/2, windowHeight/2);
-     textSize(100);
-  } else {
-    textSize(30);
+     
+     } else {
+      textSize(30);
 }
 }
